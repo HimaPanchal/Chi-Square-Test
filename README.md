@@ -1,9 +1,12 @@
-# Project Title
+# Project Overview
 
-Project Details in an email received by Data Scientist
+Project Details from Data Scientist's Email
 
-Earlier in the year, our client, a grocery retailer, ran a campaign to promote their new “Delivery Club” - an initiative that costs a customer $100 per year for membership, but offers free grocery deliveries rather than the normal cost of $10 per delivery.
+Earlier this year, our client, a grocery retailer, launched a campaign for their new “Delivery Club.” This club costs $100 per year and offers free grocery deliveries, compared to the usual $10 per delivery.
 
-For the campaign promoting the club, customers were put randomly into three groups - the first group received a low quality, low cost mailer, the second group received a high quality, high cost mailer, and the third group was a control group, receiving no mailer at all.
+For the campaign, customers were randomly divided into three groups:
 
-The client knows that customers who were contacted, signed up for the Delivery Club at a far higher rate than the control group, but now want to understand if there is a significant difference in sign-up rate between the cheap mailer and the expensive mailer. This will allow them to make more informed decisions in the future, with the overall aim of optimizing campaign ROI!
+The first group received a low-cost, basic mailer.
+The second group received a high-cost, premium mailer.
+The third group, the control group, received no mailer.
+The client has observed that customers who received a mailer signed up for the Delivery Club at a much higher rate than those in the control group. Now, they would like to understand if there’s a significant difference in sign-up rates between the low-cost and high-cost mailers. This analysis will help them optimize campaign ROI in the future.

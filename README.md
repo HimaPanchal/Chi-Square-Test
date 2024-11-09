@@ -27,3 +27,19 @@ Null Hypothesis: Mailer type and sign-up rate are independent.
 Alternate Hypothesis: Mailer type and sign-up rate are related.
 Acceptance Criteria: 0.05 significance level.
 For the Chi-Square Test, we organized the data into a 2x2 table of signup_flag by mailer_type. Using the scipy library, we calculated the Chi-Square statistic, p-value, degrees of freedom, and expected values.
+
+# Results & Overall Overview
+Here are the observed sign-up rates for each group:
+
+Mailer 1 (Low Cost): 32.8%
+Mailer 2 (High Cost): 37.8%
+However, after running a Chi-Square Test, we found:
+
+Chi-Square Statistic: 1.94
+p-value: 0.16
+Critical Value (α = 0.05): 3.84
+Since the p-value is greater than our significance level, we fail to reject the null hypothesis. This suggests there’s no statistically significant difference between the two mailers in terms of sign-up rate.
+
+While Mailer 2 had a higher sign-up rate, the difference isn’t significant enough to justify always opting for the more expensive option. Based on this test, the client may be spending more without seeing a clear return on investment.
+
+That said, this doesn’t rule out the possibility that a real difference exists. Further A/B testing with more data could provide more clarity.
